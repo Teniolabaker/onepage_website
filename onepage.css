@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(99, 39, 59);
+    color: #fff;
+    height: 100px;
+}
+nav a{
+    background-color: rgb(99, 39, 59);
+   
+    color: #fff;
+    padding: 30px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+nav a img{
+    height: 100px;
+    width: 100px;
+   padding-top: 0;
+}
+
+.About{
+    display: flex;
+    background-color: rgb(181, 228, 247);
+}
+
+.right h2{
+        color: rgb(27, 9, 9);
+        margin-block-start: 8em;
+}
+
+.right p{
+    display: flex;
+    margin-block-start: 12em;
+    margin-top: 10px;
+    padding-right: 25%;
+}
+
+.right button{
+    background-color: rgb(240, 60, 60);
+    color:#fff;
+    border-radius: 10px solid;
+    padding: 5px 15px;
+    transition: 5s;
+}
+
+#section3 h3{
+    text-align: left;
+    font-size: 30px;
+    color: rgb(80, 13, 39);
+    padding: 20px;
+}
+
+ #section3{  
+    background-color: rgb(255, 240, 252);
+}
+
+#section4 {
+         background-color: aliceblue;
+         margin-left: 10px;
+}
+
+.online h3{
+    color: rgb(46, 2, 13);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#section5{
+    background-color: rgb(247, 238, 238);
+}
+
+button{
+    background: rgb(19, 112, 165);
+    color:#fff;
+    border: transparent;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 5s;
+}
+ button .right:hover{
+    cursor: pointer;
+    background-color: #fff;
+    padding: 20px;
+}
+
+table{
+    width: 50px; height: 50px;
+}
+
+input{
+    margin-top: 1px;
+    display: block ;
+}
+
+  #icons{
+    
+    display: inline-flex;
+}
+ 
+#review{
+    width: 200px; height: 150px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(99, 39, 59);
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+ .icons{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.icons a{
+    width: 5px;
+    margin: 0px;
+}
